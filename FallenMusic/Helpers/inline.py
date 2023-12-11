@@ -56,9 +56,9 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://t.me/abt_mei"
+            text="☁️ ᴀʙᴏᴜᴛ ɪɴғᴏ ☁️", url="https://t.me/abt_mei"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌸 ᴍʀ. ᴅʜɪᴍᴀɴ 🌸", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -66,7 +66,7 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
@@ -78,7 +78,7 @@ gp_buttons = [
         InlineKeyboardButton(
             text="☁️ ᴀʙᴏᴜᴛ ɪɴғᴏ ☁️", url="https://t.me/abt_mei"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🌸 ᴍʀ. ᴅʜɪᴍᴀɴ 🌸", user_id=config.OWNER_ID),
     ],
 ]
 
