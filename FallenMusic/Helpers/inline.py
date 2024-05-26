@@ -52,7 +52,7 @@ pm_buttons = [
     [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
     [
         InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="Gʀᴏᴜᴘ", url=config.SUPPORT_GROUP),
+        InlineKeyboardButton(text="Gʀᴏᴜᴘ", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
