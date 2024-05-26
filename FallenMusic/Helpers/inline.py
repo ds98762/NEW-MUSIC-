@@ -51,14 +51,14 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="Gʀᴏᴜᴘ", url=config.SUPPORT_GROUP),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ ᴀʙᴏᴜᴛ ɪɴғᴏ ☁️", url="https://t.me/abt_mei"
+            text="Aʙᴏᴜᴛ Vɪsʜᴜ", url="https://t.me/abt_mei"
         ),
-        InlineKeyboardButton(text="🌸 ᴍʀ. ᴅʜɪᴍᴀɴ 🌸", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Vɪsʜᴜ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -66,19 +66,19 @@ pm_buttons = [
 gp_buttons = [
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕",
+            text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="Cʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="Gʀᴏᴜᴘ", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ ᴀʙᴏᴜᴛ ɪɴғᴏ ☁️", url="https://t.me/abt_mei"
+            text="Aʙᴏᴜᴛ Vɪsʜᴜ", url="https://t.me/abt_mei"
         ),
-        InlineKeyboardButton(text="🌸 ᴍʀ. ᴅʜɪᴍᴀɴ 🌸", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="Vɪsʜᴜ", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -86,25 +86,25 @@ gp_buttons = [
 helpmenu = [
     [
         InlineKeyboardButton(
-            text="ᴇᴠᴇʀʏᴏɴᴇ",
+            text="Eᴠᴇʀʏᴏɴᴇ",
             callback_data="fallen_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="sᴜᴅᴏ", callback_data="fallen_cb sudo"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", callback_data="fallen_cb owner"),
+        InlineKeyboardButton(text="Sᴜᴅᴏ", callback_data="fallen_cb sudo"),
+        InlineKeyboardButton(text="Oᴡɴᴇʀ", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_home"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="fallen_home"),
+        InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close"),
     ],
 ]
 
 
 help_back = [
-    [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ 🦋", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
-        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
+        InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="fallen_help"),
+        InlineKeyboardButton(text="Cʟᴏsᴇ", callback_data="close"),
     ],
 ]
